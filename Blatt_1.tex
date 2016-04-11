@@ -1,0 +1,170 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{makeidx}
+%\usepackage{latexsym}
+\usepackage[utf8]{inputenc,german}
+\usepackage{amsmath}
+\usepackage{ngerman}
+\usepackage{amssymb}
+%\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+\usepackage[font=bf,labelfont=it,textfont=bf]{caption}
+\usepackage[pdftex]{graphicx}
+%\usepackage{insdljs}
+%\usepackage{ulem}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{color}
+\usepackage{textcomp}
+\usepackage{pdfpages}
+\usepackage{picins}
+\usepackage{setspace}
+\usepackage{extarrows}
+%\usepackage{helvet}
+\usepackage{array}
+%\usepackage{hhline}
+%\usepackage{wasysym}
+\usepackage[headsepline,footsepline]{scrpage2}
+%\renewcommand\familydefault{rm}
+\setlength\headsep{1.5cm}
+\usepackage[paper=a4paper,left=10mm,right=0mm,top=14mm,bottom=15mm,showframe=false,ignoremp=false,marginparwidth=35mm]{geometry}
+%\usepackage{showframe}
+% Einrückung
+\setlength{\parindent}{0pt}
+\pagestyle{scrheadings}
+\clearscrheadings
+\ihead{\emph{Tutor:\\ Frau Jana Larisch\\[-1.05cm]}} \chead{\emph{SoSe 2016}\\[2ex] \emph{"Ubungsblatt 01}} \ohead{\\[2ex]\emph{\today}}
+\ifoot{Mario} \cfoot{Mathematische Grundlagen II} \ofoot{Seite~\pagemark}
+%\defpagestyle{mypagestyle}{
+%(0pt,0pt)
+%{} {} {}
+%(0pt,0pt)
+%}{
+%(\textwidth,.4pt)
+%{} {} {}
+%(0pt,0pt)
+%}
+%\usepackage{lscape}
+\newcommand\header{\textsf{\textbf{\Large \\}}}
+\newcommand\headers{\textsf{\textbf{\Large \hspace{2.55cm} Universit"at Bremen}}}
+\newcommand\headerf{\textsf{\large \hspace{2.6cm} Mathematische Grundlagen II - Lineare Algebra}}
+\newcommand\headerg{\textsf{\large \hspace{2.6cm} "Ubungsbl"atter}}
+\newcommand\FIG{\hspace{1.7cm}\includegraphics{Uni-Logo-new2.jpg}}
+\newcommand*{\qed}{\hfill\ensuremath{\square}\\}%
+%\newcommand\FIGS{\includegraphics{FB11.jpg}}
+\usepackage{hyperref}
+\begin{document}
+%\thispagestyle{mypagestyle}
+
+\parpic(1cm,1cm)[l][t]{\FIG}
+%\parpic[r][t]{\FIGS} 
+\header\par
+\headers\par
+\headerf\par
+\headerg\par
+
+\vspace{1.1cm}
+\begin{flushleft}
+\begin{tabbing}
+Gruppenmitglied 01: \=Reichenberg, Phillip\\[2ex]
+Gruppenmitglied 02: \>Jöhnke, Max\\[2ex]
+Gruppenmitglied 03: \>L"unsmann, Mario\\[2ex]
+e-Mail 01: \>\textcolor{blue}{s\_ksfo6n@uni-bremen.de}\\[2ex]
+e-Mail 02: \>\textcolor{blue}{maxjoehnk@gmail.com}\\[2ex]
+e-Mail 03: \>\textcolor{blue}{mluensmann@uni-bremen.de}\\[2ex]
+"Ubungsblattnummer: \>"Ubungsblatt 01\\[2ex]
+Status: \>L"osung 01\\[8ex]
+Punkte/Prozente:\\[16ex]
+Anmerkungen/Verbesserungsvorschl"age:
+%Pr"ufungstermin: \>23.06.2009
+\end{tabbing}
+\end{flushleft}
+
+\clearpage
+
+\section*{Mathematische Grundlagen II - Lineare Algebra}
+
+\section*{"Ubungsblatt 01 - Abgabetermin 12.04.2016}
+
+\section{Präsenzübungen}
+
+\subsection{P1}
+
+Frage 1:
+\\[2ex]
+Bestimmen Sie – falls vorhanden – Supremum, Infimum, Maximum und Minimum der folgenden Mengen. Geben Sie auf jeden Fall immer eine obere und eine untere Schranke an.
+
+\begin{description}
+\item[(a)]{$(2,4) \subset \mathbb{R} $ [1,5] ; Inf 2; Sup 4}
+\item[(b)]{$[0,3) \subset \mathbb{R} $ [0,2] ; Inf 0; Sup 3 ; min 0}
+\item[(c)]{$[2,4] \subset \mathbb{R} $ [2,4] ; Inf 2; Sup 4 ; min 2 ; max 4}
+\item[(d)]{$\{x \in \mathbb{R} | 0 < x^2 < 2\} $ (0,2) ; [0,3] ; Inf $\sqrt{-2}$ ; Sup $\sqrt{2}$}
+\item[(e)]{$(2,4) \subset \mathbb{Q} $ [2,4] ; Inf 2; Sup 4}
+\item[(f)]{$[2,4) \subset \mathbb{Q} $ [2,4] ; Inf 2; Sup 4; Min 2}
+\item[(g)]{$[2,4] \subset \mathbb{Q} $ [2,4] ; Inf 2; Sup 4; Min 2; Max 4}
+\item[(h)]{$\{x \in \mathbb{Q} | 0 < x^2 < 2\} $ -}
+\item[(i)]{$(2,4) \subset \mathbb{N} $ [3,3] ; Inf 3; Sup 3; Min 3 ; Max 3}
+\item[(j)]{$[2,4) \subset \mathbb{N} $ [2,3] ; Inf 2; Sup 3; Min 2 ; Max 3}
+\item[(k)]{$[2,4] \subset \mathbb{N} $ [2,4] ; Inf 2; Sup 4; Min 2 ; Max 4}
+\item[(l)]{$\{x \in \mathbb{N} | 0 < x^2 < 2\} $ (0,2) ; [1,1] ; Inf 1; Sup 1; Min 1 ; Max 1}
+\end{description}
+
+\section{Hausübungen}
+
+\subsection{H1}
+
+Frage 1:
+\\[2ex]
+Schreiben Sie die Ausdrücke jeweils als einzigen Bruch und vereinfachen Sie soweit wie möglich:
+\\[2ex]
+Lösungen zu 1:
+
+\begin{description}
+\item[(a)]{$\frac{1}{x - y} - \frac{1}{y - x} = \frac{1}{x - y} + \frac{-1}{-(x - y)} = \frac{1}{x - y} + \frac{1}{x - y} = 2 * \frac{1}{x - y} = \frac{2}{x - y}$}
+\item[(b)]{$\frac{5}{b - 1} - \frac{6b}{b^2 - 1} - \frac{1 - 2b}{b + b^2} = \frac{5}{b - 1} - \frac{2 * 3b}{b^2 - 1} - \frac{1 - 2b}{b + b^2} = \frac{5}{b - 1} + \frac{-(2 * 3b)}{(b - 1) * (b + 1)} - \frac{1 - 2b}{b + b^2} = \frac{5}{b - 1} + \frac{(-2 * 3b)}{(b - 1) * (b + 1)} - \frac{1 - 2b}{b + b^2} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} - \frac{-2b + 1}{b + b^2} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{-(-2(b - 0,5))}{b * (b + 1)} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{(2(b - 0,5))}{b * (b + 1)} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{2b + 2 * (-0,5)}{b * (b + 1)} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{2b - 1}{b * (b + 1)} = \frac{5}{b - 1} + \frac{(-6b) * b}{(b - 1) * (b + 1) * b} + \frac{(2b - 1) * (b - 1)}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{(-6b * b)}{(b - 1) * (b + 1) * b} + \frac{(2b - 1) * (b - 1)}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2b - 1) * (b - 1)}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2b * (b - 1) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2(b * b + b * (-1)) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2(b^2 - b) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{((2 * b^2 + 2 * - b) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{((2 * b^2 - 2b) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{((2 * b^2 - 2b) + (-b + 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2 * b^2 - 2b + (-b + 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2 * b^2 - 2b - b + 1)}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{2 * b^2 - 3b + 1}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2 + 2 * b^2 -3b + 1}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-4 * b^2 - 3b + 1}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-4b + 1}{(b - 1) * b} = \frac{5b}{(b - 1) * b} + \frac{-4b + 1}{(b - 1) * b} = \frac{5b - 4b + 1}{(b - 1) * b} = \frac{b + 1}{(b - 1) * b}$}
+\item[(c)]{$\frac{((3 * 10^{-2})^2 * 4 * 10^3)}{10^{-1}} = \frac{((3 * 0,01)^2 * 4 * 10^3)}{10^{-1}} = \frac{(0,03^2 * 4 * 10^3)}{10^{-1}} = \frac{(0,0009 * 4 * 10^3)}{10^{-1}} = \frac{(0,0009 * 4 * 1000)}{10^{-1}} = \frac{(0,0009 * 4000)}{10^{-1}} = \frac{3,6}{10^{-1}} = \frac{3,6}{0,1} = 36$}
+\item[(d)]{$(2a^2)^2 * \frac{1}{(2a)^3} * \frac{1}{a - 1} = (2^2 * a^{2 + 2}) * \frac{1}{(2^3 * a^3)} * \frac{1}{a - 1} = 4 * a^4 * \frac{1}{(2^3 * a^3) * (a - 1)} = 4 * a^4 * \frac{1}{2^3 * a * a^3 + 2^3 * a^3 * (-1)} = 4 * a^4 * \frac{1}{2^3 * a^4 - 2^3 * a^3} = \frac{4 * a^4}{2^3 * a^4 - 2^3 * a^3} = \frac{4a}{8a - 8} = \frac{a}{2a - 2}$}
+\end{description}
+
+\subsection{H2}
+
+Frage 1:
+\\[2ex]
+Lösen Sie nach x auf.
+\\[2ex]
+Lösungen zu 1:
+
+\begin{description}
+\item[(a)]{$w = \frac{1}{2} v * (1 - \frac{1 + k}{1 + \frac{a}{x}}) = w = \frac{v * (1 - \frac{1 + k}{1 + \frac{a}{x}})}{2} = w = - \frac{kv}{\frac{2a}{x} + 2} - \frac{v}{\frac{2a}{x} + 2} + \frac{v}{2} = x = - \frac{2aw - av}{2w + kv}$}
+\item[(b)]{$\frac{A}{2} = \frac{b}{a(\frac{1}{x} - \frac{1}{y})} = \frac{A}{2} = \frac{b}{\frac{a}{x} - \frac{a}{y}} = x = \frac{ayA}{aA + 2by}$}
+\end{description}
+
+\subsection{H3}
+
+Frage 1:
+\\[2ex]
+Wie Sie an der folgenden Kette von Äquivalenzumformungen erkennen, ist $0 = 1$. Finden Sie den Fehler.
+\\[2ex]
+Die Originalfassung mit Fehlerhervorhebung bei der Äquivalenzumformung
+
+%\begin{eqnarray}
+$6^2 - 6 * 11 = 5^2 - 5 * 11$\\
+$\underbrace{6^2 - 6 * 11}_{\emph{\emph{Berechnung falsch bei Umformung}}} + \underbrace{(\frac{11}{2})^2}_{\emph{\emph{überflüssig}}} = \underbrace{5^2 - 5 * 11}_{\emph{\emph{Berechnung falsch bei Umformung}}} + \underbrace{(\frac{11}{2})^2}_{\emph{\emph{überflüssig}}}$\\
+$(6 - \frac{11}{2})^2 = (5 - \frac{11}{2})^2$\\
+$6 - \frac{11}{2} = 5 - \frac{11}{2}$\\
+$1 = 0$
+%\end{eqnarray}
+\\[2ex]
+Hier ist die korrigierte Fassung ohne irgendwelche Fehler mit eindeutigem Ergebnis
+\\[2ex]
+%\begin{tabbing}
+$6^2 - 6 * 11 = 5^2 - 5 * 11$ \hspace{4cm} \backslash \emph{\emph{Klammern der Terme}}\\ %\qquad \qquad \quad \qquad \qquad \quad \backslash \emph{\emph{Klammern der Terme}}\\
+$(6^2) - (6 * 11) = (5^2) - (5 * 11)$ \hspace{2.7cm} \backslash \emph{\emph{Punkt vor Strichrechnung!}}\\ %\qquad \qquad \qquad \quad \backslash \emph{\emph{Punkt vor Strichrechnung!}}\\
+$36 - 66 = 25 - 55$ \hspace{5.5cm} \backslash \emph{\emph{simples Substrahieren!}}\\ %\qquad \qquad \qquad \qquad \qquad \qquad \quad \backslash \emph{\emph{simples Substrahieren!}}\\
+$-30 = - 30$ \hspace{6.7cm} \backslash $+ 30$\\ %\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \backslash $+ 30$\\
+$0 = 0$
+%\label{eq:}
+%\end{tabbing}
+
+\end{document}
