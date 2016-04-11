@@ -1,0 +1,70 @@
+[1mdiff --git a/Blatt_1.pdf b/Blatt_1.pdf[m
+[1mindex f1ac852..5eae93e 100644[m
+[1m--- a/Blatt_1.pdf[m
+[1m+++ b/Blatt_1.pdf[m
+[36m@@ -94,8 +94,8 @@[m [mFrau Jana Larisch[m
+            5    +      −4∗b2−3b+1              =      5    +  −4b+1        =     5b        +   −4b+1      =  5b−4b+1     =    b+1[m
+           b−1         (b−1)∗(b+1)∗b                  b−1      (b−1)∗b         (b−1)∗b          (b−1)∗b       (b−1)∗b        (b−1)∗b[m
+ [m
+[31m-(c)   ((3∗10−2)2∗4∗103)            =     ((3∗0,01)2∗4∗103)           =  (0,032∗4∗103)    =    (0,0009∗4∗103)    =  (0,0009∗4∗1000)   =  (0,0009∗4000)  =[m
+[31m-               10−1                              10−1                        10−1                   10−1                  10−1                10−1[m
+[32m+[m[32m(c)   (3∗10−2)2∗4∗103)             =     (3∗0,01)2∗4∗103)        =      0,032∗4∗103)   =   0,001∗4∗103)      =  0,001∗4∗1000)   =   0,001∗4000)  =[m
+[32m+[m[32m              10−1                               10−1                        10−1               10−1                  10−1              10−1[m
+            3,6           3,6[m
+           10−1     =     0,1   =   36[m
+ [m
+[1mdiff --git a/Blatt_1.tex b/Blatt_1.tex[m
+[1mindex da9adfa..b42038f 100644[m
+[1m--- a/Blatt_1.tex[m
+[1m+++ b/Blatt_1.tex[m
+[36m@@ -67,12 +67,12 @@[m
+ \vspace{1.1cm}[m
+ \begin{flushleft}[m
+ \begin{tabbing}[m
+[31m-%Gruppenmitglied 01: \=Struck, Malte\\[2ex][m
+[31m-%Gruppenmitglied 02: \>Jöhnke, Max\\[2ex][m
+ Gruppenmitglied 01: \=L"unsmann, Mario\\[2ex][m
+[31m-%e-Mail 01: \>\textcolor{blue}{Struck@tzi.de}\\[2ex][m
+[31m-%e-Mail 02: \>\textcolor{blue}{sasjonge@uni-bremen.de}\\[2ex][m
+[31m-e-Mail 01: \>\textcolor{blue}{mluensmann@uni-bremen.de}\\[2ex][m
+[32m+[m[32mGruppenmitglied 02: \=Jöhnk, Max\\[2ex][m[41m[m
+[32m+[m[32mGruppenmitglied 03: \=Reichenberg, Philip\\[2ex][m[41m[m
+[32m+[m[32mE-Mail 01: \>\textcolor{blue}{mluensmann@uni-bremen.de}\\[2ex][m[41m[m
+[32m+[m[32mE-Mail 02: \>\textcolor{blue}{maxjoehnk@gmail.com}\\[2ex][m[41m[m
+[32m+[m[32mE-Mail 03: \>\textcolor{blue}{s_ksfo6n@uni-bremen.de}\\[2ex][m[41m[m
+ "Ubungsblattnummer: \>"Ubungsblatt 01\\[2ex][m
+ Status: \>L"osung 01\\[8ex][m
+ Punkte/Prozente:\\[16ex][m
+[36m@@ -121,10 +121,10 @@[m [mSchreiben Sie die Ausdrücke jeweils als einzigen Bruch und vereinfachen Sie sow[m
+ Lösungen zu 1:[m
+ [m
+ \begin{description}[m
+[31m-\item[(a)]{$\frac{1}{x - y} - \frac{1}{y - x} = \frac{1}{x - y} + \frac{-1}{-(x - y)} = \frac{1}{x - y} + \frac{1}{x - y} = 2 * \frac{1}{x - y} = \frac{2}{x - y}$}[m
+[31m-\item[(b)]{$\frac{5}{b - 1} - \frac{6b}{b^2 - 1} - \frac{1 - 2b}{b + b^2} = \frac{5}{b - 1} - \frac{2 * 3b}{b^2 - 1} - \frac{1 - 2b}{b + b^2} = \frac{5}{b - 1} + \frac{-(2 * 3b)}{(b - 1) * (b + 1)} - \frac{1 - 2b}{b + b^2} = \frac{5}{b - 1} + \frac{(-2 * 3b)}{(b - 1) * (b + 1)} - \frac{1 - 2b}{b + b^2} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} - \frac{-2b + 1}{b + b^2} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{-(-2(b - 0,5))}{b * (b + 1)} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{(2(b - 0,5))}{b * (b + 1)} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{2b + 2 * (-0,5)}{b * (b + 1)} = \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{2b - 1}{b * (b + 1)} = \frac{5}{b - 1} + \frac{(-6b) * b}{(b - 1) * (b + 1) * b} + \frac{(2b - 1) * (b - 1)}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{(-6b * b)}{(b - 1) * (b + 1) * b} + \frac{(2b - 1) * (b - 1)}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2b - 1) * (b - 1)}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2b * (b - 1) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2(b * b + b * (-1)) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2(b^2 - b) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{((2 * b^2 + 2 * - b) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{((2 * b^2 - 2b) - (b - 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{((2 * b^2 - 2b) + (-b + 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2 * b^2 - 2b + (-b + 1))}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2 * b^2 - 2b - b + 1)}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{2 * b^2 - 3b + 1}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-6 * b^2 + 2 * b^2 -3b + 1}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-4 * b^2 - 3b + 1}{(b - 1) * (b + 1) * b} = \frac{5}{b - 1} + \frac{-4b + 1}{(b - 1) * b} = \frac{5b}{(b - 1) * b} + \frac{-4b + 1}{(b - 1) * b} = \frac{5b - 4b + 1}{(b - 1) * b} = \frac{b + 1}{(b - 1) * b}$}[m
+[31m-\item[(c)]{$\frac{((3 * 10^{-2})^2 * 4 * 10^3)}{10^{-1}} = \frac{((3 * 0,01)^2 * 4 * 10^3)}{10^{-1}} = \frac{(0,03^2 * 4 * 10^3)}{10^{-1}} = \frac{(0,0009 * 4 * 10^3)}{10^{-1}} = \frac{(0,0009 * 4 * 1000)}{10^{-1}} = \frac{(0,0009 * 4000)}{10^{-1}} = \frac{3,6}{10^{-1}} = \frac{3,6}{0,1} = 36$}[m
+[31m-\item[(d)]{$(2a^2)^2 * \frac{1}{(2a)^3} * \frac{1}{a - 1} = (2^2 * a^{2 + 2}) * \frac{1}{(2^3 * a^3)} * \frac{1}{a - 1} = 4 * a^4 * \frac{1}{(2^3 * a^3) * (a - 1)} = 4 * a^4 * \frac{1}{2^3 * a * a^3 + 2^3 * a^3 * (-1)} = 4 * a^4 * \frac{1}{2^3 * a^4 - 2^3 * a^3} = \frac{4 * a^4}{2^3 * a^4 - 2^3 * a^3} = \frac{4a}{8a - 8} = \frac{a}{2a - 2}$}[m
+[32m+[m[32m\item[(a)]{$\frac{1}{x - y} - \frac{1}{y - x}\\= \frac{1}{x - y} + \frac{-1}{-(x - y)}\\= \frac{1}{x - y} + \frac{1}{x - y}\\= 2 * \frac{1}{x - y}\\= \frac{2}{x - y}$}[m[41m[m
+[32m+[m[32m\item[(b)]{$\frac{5}{b - 1} - \frac{6b}{b^2 - 1} - \frac{1 - 2b}{b + b^2}\\= \frac{5}{b - 1} - \frac{2 * 3b}{b^2 - 1} - \frac{1 - 2b}{b + b^2}\\= \frac{5}{b - 1} + \frac{-(2 * 3b)}{(b - 1) * (b + 1)} - \frac{1 - 2b}{b + b^2}\\= \frac{5}{b - 1} + \frac{(-2 * 3b)}{(b - 1) * (b + 1)} - \frac{1 - 2b}{b + b^2}\\= \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} - \frac{-2b + 1}{b + b^2}\\= \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{-(-2(b - 0,5))}{b * (b + 1)}\\= \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{(2(b - 0,5))}{b * (b + 1)}\\= \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{2b + 2 * (-0,5)}{b * (b + 1)}\\= \frac{5}{b - 1} + \frac{-6b}{(b - 1) * (b + 1)} + \frac{2b - 1}{b * (b + 1)}\\= \frac{5}{b - 1} + \frac{(-6b) * b}{(b - 1) * (b + 1) * b} + \frac{(2b - 1) * (b - 1)}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{(-6b * b)}{(b - 1) * (b + 1) * b} + \frac{(2b - 1) * (b - 1)}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2b - 1) * (b - 1)}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2b * (b - 1) - (b - 1))}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2(b * b + b * (-1)) - (b - 1))}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2(b^2 - b) - (b - 1))}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{((2 * b^2 + 2 * - b) - (b - 1))}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{((2 * b^2 - 2b) - (b - 1))}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{((2 * b^2 - 2b) + (-b + 1))}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2 * b^2 - 2b + (-b + 1))}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{(2 * b^2 - 2b - b + 1)}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2}{(b - 1) * (b + 1) * b} + \frac{2 * b^2 - 3b + 1}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-6 * b^2 + 2 * b^2 -3b + 1}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-4 * b^2 - 3b + 1}{(b - 1) * (b + 1) * b}\\= \frac{5}{b - 1} + \frac{-4b + 1}{(b - 1) * b}\\= \frac{5b}{(b - 1) * b} + \frac{-4b + 1}{(b - 1) * b}\\= \frac{5b - 4b + 1}{(b - 1) * b}\\= \frac{b + 1}{(b - 1) * b}$}[m[41m[m
+[32m+[m[32m\item[(c)]{$\frac{(3 * 10^{-2})^2 * 4 * 10^3}{10^{-1}}\\= \frac{(3 * 0,01)^2 * 4 * 10^3}{10^{-1}}\\= \frac{0,03^2 * 4 * 10^3}{10^{-1}}\\= \frac{0,0009 * 4 * 10^3}{10^{-1}}\\= \frac{0,0009 * 4 * 1000}{10^{-1}}\\= \frac{0,0009 * 4000}{10^{-1}}\\= \frac{3,6}{10^{-1}}\\= \frac{3,6}{0,1}\\= 36$}[m[41m[m
+[32m+[m[32m\item[(d)]{$(2a^2)^2 * \frac{1}{(2a)^3} * \frac{1}{a - 1}\\= (2^2 * a^{2 + 2}) * \frac{1}{(2^3 * a^3)} * \frac{1}{a - 1}\\= 4 * a^4 * \frac{1}{(2^3 * a^3) * (a - 1)}\\= 4 * a^4 * \frac{1}{2^3 * a * a^3 + 2^3 * a^3 * (-1)}\\= 4 * a^4 * \frac{1}{2^3 * a^4 - 2^3 * a^3}\\= \frac{4 * a^4}{2^3 * a^4 - 2^3 * a^3}\\= \frac{4a}{8a - 8}\\= \frac{a}{2a - 2}$}[m[41m[m
+ \end{description}[m
+ [m
+ \subsection{H2}[m
+[36m@@ -136,8 +136,8 @@[m [mLösen Sie nach x auf.[m
+ Lösungen zu 1:[m
+ [m
+ \begin{description}[m
+[31m-\item[(a)]{$w = \frac{1}{2} v * (1 - \frac{1 + k}{1 + \frac{a}{x}}) = w = \frac{v * (1 - \frac{1 + k}{1 + \frac{a}{x}})}{2} = w = - \frac{kv}{\frac{2a}{x} + 2} - \frac{v}{\frac{2a}{x} + 2} + \frac{v}{2} = x = - \frac{2aw - av}{2w + kv}$}[m
+[31m-\item[(b)]{$\frac{A}{2} = \frac{b}{a(\frac{1}{x} - \frac{1}{y})} = \frac{A}{2} = \frac{b}{\frac{a}{x} - \frac{a}{y}} = x = \frac{ayA}{aA + 2by}$}[m
+[32m+[m[32m\item[(a)]{$w\\= \frac{1}{2} v * (1 - \frac{1 + k}{1 + \frac{a}{x}})\\= w\\= \frac{v * (1 - \frac{1 + k}{1 + \frac{a}{x}})}{2}\\= w\\= - \frac{kv}{\frac{2a}{x} + 2} - \frac{v}{\frac{2a}{x} + 2} + \frac{v}{2}\\= x\\= - \frac{2aw - av}{2w + kv}$}[m[41m[m
+[32m+[m[32m\item[(b)]{$\frac{A}{2}\\= \frac{b}{a(\frac{1}{x} - \frac{1}{y})}\\= \frac{A}{2}\\= \frac{b}{\frac{a}{x} - \frac{a}{y}}\\= x\\= \frac{ayA}{aA + 2by}$}[m[41m[m
+ \end{description}[m
+ [m
+ \subsection{H3}[m
+[36m@@ -167,4 +167,4 @@[m [m$0 = 0$[m
+ %\label{eq:}[m
+ %\end{tabbing}[m
+ [m
+[31m-\end{document}[m
+\ No newline at end of file[m
+[32m+[m[32m\end{document}[m[41m[m
